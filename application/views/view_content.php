@@ -1,4 +1,4 @@
-<div id="content">
+    <div id="content">
     
     	<div id="ctn1">
     		<img src="<?php echo base_url(); ?>image/ctn-pict.jpg" alt="pict1"/>

@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Home extends CI_Controller {
+class Products extends CI_Controller {
 	public function __construct() {        
 	    parent::__construct();
 	}
@@ -17,16 +17,15 @@ class Home extends CI_Controller {
 	        $this->default_method();
 	    }
 	}*/
-
+	
 	public function index(){
-		$this->home();
+		$this->product();
 	}
 
-	public function home(){
+	public function product(){
 		$this->load->view("view_head");
 		$this->load->view("view_header");
-		$this->load->view("view_featured");
-		$this->load->view("view_content");
+		echo "halaman produk";
 		$this->load->view("view_footer");
 	}
 }
