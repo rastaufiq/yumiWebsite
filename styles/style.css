@@ -1,0 +1,180 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+a {
+	text-decoration:none;
+	color:black;
+}
+
+a.hover {
+	text-decoration:none;	
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	text-transform:uppercase;
+	line-height:100px;
+	margin-top:0;
+}
+
+h1 {
+		
+}
+
+h2 {
+		
+}
+
+h3 {
+		
+}
+
+/*Main CSS*/
+
+
+#container {
+	width: 980px;
+	background: white;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#header {
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+
+#header img {
+	float: left;
+	margin-right: 20px;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+#header ul#nav {
+	margin-top: 30px;
+}
+
+#featured .featuredimage-bg {
+	position: absolute;
+	margin-left: -898px;
+}
+
+#featured .featuredimage-fr {
+	position: relative;
+}
+
+#featured .slider {
+	position: absolute;
+}
+
+#footer {
+	overflow: hidden;
+	margin-left: -10px;
+	background:url(../image/footer.png) no-repeat;
+}
+
+#col1, #col2, #col3 {
+	float: left;
+	width: 275px;
+	margin-top: 60px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+}
+
+#col3 {
+	margin-left: 30px;
+}
+
+#col3 li {
+	margin-left: 10px;
+	float: right;
+}
+
+#content {
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+#content h1 {
+	margin-top: -70px;
+	position: relative;
+}
+
+#ctn1 {
+	float: left;
+	margin-right: 50px;
+}
+
+#ctn3 {
+	float: left;
+	margin-right: 50px;
+}
+
+#border {
+	position: absolute;
+	margin-left: -295px;
+}
+
+form {
+	margin-top: 8px;
+	float: right;
+}
+
+form .text {
+	position: absolute;
+}
+
+form .button {
+	
+}
