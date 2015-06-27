@@ -13,7 +13,7 @@
         
         <form> 
         	<input type="text" placeholder="Search..." required="required" />
-            <a href="#"><input type="button" value="Search" /></a>
+            <a href="<?php echo base_url(); ?>search"><input type="button" value="Search" /></a>
         </form>
         
 	</div> <!--end div header-->
