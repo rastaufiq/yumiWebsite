@@ -5,6 +5,6 @@
 <title>
 	YUMI! UENAK TENAN
 </title>
-<link href="<?php echo base_url(); ?>styles/style.css" rel="stylesheet" type="text/css" />
-<link href="<?php echo base_url(); ?>image/logo.png" rel="shortcut icon" /> 
+<link href="<?php echo base_url(); ?>/styles/style.css" rel="stylesheet" type="text/css" />
+<link href="<?php echo base_url(); ?>/image/logo.png" rel="shortcut icon" /> 
 </head>
