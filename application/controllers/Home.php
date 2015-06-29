@@ -30,6 +30,7 @@ class Home extends CI_Controller {
 	public function article(){
 		$this->load->view("view_head");
 		$this->load->view("view_header");
+		$this->load->view("view_article");
 		$this->load->view("view_footer");
 	}
 	public function about(){
