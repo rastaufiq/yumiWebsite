@@ -63,6 +63,11 @@ h1, h2, h3, h4, h5, h6 {
 	line-height:100px;
 }
 
+.gambar {
+	width: 277px;
+	height: 184px;
+}
+
 /*Home*/
 
 #container {
@@ -104,8 +109,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #featured .slider {
-	margin-top: 20px;
+	width: 750px;
+	height: 335px;
+	margin: 40px 130px;
 	position: absolute;
+	overflow: hidden;
+}
+
+#featured .slider img {
+	width: 750px;
+	height: 335px;
+	display: none;
 }
 
 #footer {
@@ -164,6 +178,7 @@ form {
 
 form .text {
 	position: absolute;
+	margin-left: 100px;
 }
 
 
@@ -178,8 +193,7 @@ form .text {
 #product img {
 	margin-top: 50px;
 	margin-bottom: 59px;
-	width: 277px;
-	height: 184px;
+	
 }
 
 #product-content-1 {
@@ -227,9 +241,7 @@ form .text {
 
 #product #border {
 	position: absolute;
-	width: 280px;
-	height: 190px;
-	margin-left: -278px;
+	margin-left: -283px;
 	pointer-event: none;
 }
 
