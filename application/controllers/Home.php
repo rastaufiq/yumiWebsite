@@ -6,23 +6,8 @@ class Home extends CI_Controller {
 	    parent::__construct();
 	}
 
-	/*public function _remap($method)
-	{
-	    if ($method == 'some_method')
-	    {
-	        $this->$method();
-	    }
-	    else
-	    {
-	        $this->default_method();
-	    }
-	}*/
-
 	public function index(){
-		$this->home();
-	}
-
-	public function home(){
+		$data['page_title'] = 'Home';
 		$this->load->view("view_head");
 		$this->load->view("view_header");
 		$this->load->view("view_featured");
